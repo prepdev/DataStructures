@@ -4,14 +4,17 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../src/LinkedList.cpp \
 ../src/List.cpp \
 ../src/List_proj.cpp 
 
 OBJS += \
+./src/LinkedList.o \
 ./src/List.o \
 ./src/List_proj.o 
 
 CPP_DEPS += \
+./src/LinkedList.d \
 ./src/List.d \
 ./src/List_proj.d 
 
